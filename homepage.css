@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#1b1926;
+}
+#navbar{
+    background-color:#1b1926;
+}
+.nav-link:hover{
+    color:#fa7722;
+    
+}
+#home{
+    width:100%;
+    padding-left:70%;
+}
+#home a{
+    color:aliceblue;
+    margin-right:50%;
+   
+}
+.navbar-toggler{
+    position:absolute;
+    right:10px;
+    top:10px;
+    
+}
+#logo{
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:20px; 
+    color:#fa7722;
+}
+#fullwebsite{
+    color:#fa7722;
+    font-weight:bold;
+}
+#foods{
+    color:white;
+    font-weight:bold;
+}
+#btn{
+    background-color:#fa7722;
+    padding:6px 10px;
+    border-radius:5px;
+    color:white;
+    border:none;
+    transition:1s;
+}
+#btn:hover{
+    transform:scale(1.1);
+}
+#img-1{
+    width:25rem;
+    height:25rem;
+    transition:1s;
+}
+#img-1:hover{
+    transform:scale(1.1);
+    
+}
+.rows{
+    display:flex;
+    justify-content:center;
+    gap:10%;
+    height:90vh;
+    align-items:center;
+}
+#about{
+    color:#fa7722;
+}
+#speak{
+    color:white;
+    font-size:30px;
+    font-weight:700;
+}
+#detial{
+    color:white;
+}
+.content_1{
+    width:30%;
+    height:40%;
+}
+.img_container{
+    display:flex;
+    justify-content: center;
+    gap:10%;
+    height:90vh;
+    align-items: center;
+}
+#btn_2{
+    padding:7px 12px 7px;
+    border:none;
+    border-radius:5px;
+    background-color:#fa7722;
+    color:white;
+    font-size:14px
+    
+}
+p{
+    color:white;
+}
+#img-2{
+    width:25rem;
+    height:25rem;
+}
+.food_detail{
+    text-align: center;
+    margin-bottom:-150px;
+}
+.main_food_meun{
+    display:grid;
+    gap:50px;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+.meun_food{
+    display:flex;
+    gap:1rem;
+}
+#img_food{
+    background-color:antiquewhite;
+    width:300px;
+    height:350px;
+    position:relative;
+    border-radius:5px;
+    
+    
+}
+#img_food:hover{
+    box-shadow: rgb(142, 129, 129) 0px 5px 15px;
+}
+#img_food1{
+    width:200px;
+    height:200px;
+    margin-left:45.5px
+}
+#img_food1:hover{
+    transform:scale(1.1);
+    transition: 0.5s ;
+}
+.fa-cart-shopping{
+    background-color:#fa7722;
+    padding:10px;
+    border-radius:0 5px 0 5px;
+    position:absolute;
+    right:0;
+}
+
+.food_detail_1{
+    text-align: center;
+    display:block;
+}
+#chicken{
+    font-size:17px;
+    font-weight:700; 
+    color:#1b1926;   
+}
+#tasty{
+    color:#1b1926;
+}
+#price{
+    color:#fa7722;
+}
+#food_menu{
+    color:#fa7722;
+}
+#fresh{
+    font-size: 30px;
+    font-weight:700;
+}
+
+
+
+/*Service section*/
+
+
+
+.service_food_main{
+    display:flex;
+    justify-content: center;
+    height:85vh;
+    gap:50px;
+    align-items: center;
+    margin-top:50px;
+}
+#service_pic{
+    width:65px;
+    height:65px;
+}
+.Service_food{
+    width:290px;
+    height: 290px;
+    text-align: center;
+   
+}
+#service_type{
+    color:#fa7722;
+    font-weight:600;
+}
+
+
+
+/*Section contact*/
+.quality_food{
+    width:1000px;
+    height:200px;
+    background-color:#ffefe8;
+    border-radius:5px;
+    text-align: center;
+    
+}
+#btn_3{
+    padding:5px 10px 5px;
+    border:none;
+    color:white;
+    border-radius:5px;
+    background-color: #fa7722;
+}
+#food_detail{
+    color:#1b1926;
+    font-size:30px;
+    font-weight:700;
+    margin-top:30px;
+}
+.main_contact_quality{
+    display:grid;
+    justify-content: center;
+    height: 85vh;
+    align-items: center;
+}
+.main_contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
+li{
+    list-style: none;
+    
+}
+ul{
+    margin-left:-34px
+}
+a{
+    color:#908795;
+    text-decoration: none ;
+}
+.fa-brands{
+    color:white;
+    background-color:#fa7722;
+    padding:7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding:7px 11px 7px
+}
+.fa-instagram{
+    padding:7px 9px 7px
+}
+#a:hover{
+    transition: 0.5s;
+    transform:scale(1.1);
+   
+}
